@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>test</title>
-    <url>/2025/08/27/test/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>“我的第一篇Hexo博客”</title>
     <url>/2025/08/27/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87Hexo%E5%8D%9A%E5%AE%A2%E2%80%9D/</url>
     <content><![CDATA[]]></content>
       <tags>
         <tag>这样就是可以的了吗？</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/2025/08/27/test/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
