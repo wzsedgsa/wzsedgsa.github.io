@@ -1,99 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>关于图片风格</title>
-    <url>/2025/09/15/%E5%85%B3%E4%BA%8E%E5%9B%BE%E7%89%87%E9%A3%8E%E6%A0%BC/</url>
-    <content><![CDATA[<p>这是一篇创建于 2025 年 9 月 15 日的图片显示测试，保留原来的文章地址。它用来查看图片在正文中的大小、间距和预览效果，并不是一篇图片风格教程。</p>
-<span id="more"></span>
-
-<h2 id="图片示例"><a href="#图片示例" class="headerlink" title="图片示例"></a>图片示例</h2><figure>
-  <img src="/images/optimized/3cc8c37d3fe664c3b112386aa953485b.webp" width="1440" height="1440" alt="建站时用于检查显示效果的方形图片" loading="lazy" decoding="async">
-  <figcaption>正文展示图。<a href="/images/111/3cc8c37d3fe664c3b112386aa953485b.png">查看原图（1620 × 1620）</a></figcaption>
-</figure>
-
-<p>更多现有图片整理在<a href="/photos/">相册</a>里。可以切换明暗模式，或在手机上查看这张图片的展示效果。</p>
-<p>这篇文章与<a href="/2025/08/27/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87Hexo%E5%8D%9A%E5%AE%A2%E2%80%9D/">最初的发布测试</a>同属“建站记录”。</p>
-]]></content>
-      <categories>
-        <category>建站记录</category>
-      </categories>
+    <title>“我的第一篇Hexo博客”</title>
+    <url>/2025/08/27/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87Hexo%E5%8D%9A%E5%AE%A2%E2%80%9D/</url>
+    <content><![CDATA[]]></content>
       <tags>
-        <tag>图片</tag>
-        <tag>建站测试</tag>
+        <tag>这样就是可以的了吗？</tag>
       </tags>
   </entry>
   <entry>
     <title>怎么加入本博客代表的APRmc服务器？</title>
     <url>/2025/08/29/%E6%80%8E%E4%B9%88%E5%8A%A0%E5%85%A5%E6%9C%AC%E5%8D%9A%E5%AE%A2%E4%BB%A3%E8%A1%A8%E7%9A%84APRmc%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
-    <content><![CDATA[<blockquote>
-<p><strong>历史资料：</strong> 这篇指南最初发布于 2025 年 8 月 29 日。2026 年 10 月整理博客时，仅调整了结构和提示；下列版本、服务器地址和群信息尚未重新核实，不能据此判断服务器目前是否开放。</p>
-</blockquote>
-<p>这篇文章保留早期 APRmc 的入服说明。准备加入前，请先到 <a href="/categories/APRmc/">APRmc 分类</a>查看是否已有更新，并通过<a href="https://space.bilibili.com/3546699815454761">作者公开主页</a>确认最新消息。</p>
-<span id="more"></span>
-
-<h2 id="原指南记录的信息"><a href="#原指南记录的信息" class="headerlink" title="原指南记录的信息"></a>原指南记录的信息</h2><table>
-<thead>
-<tr>
-<th>项目</th>
-<th>2025 年原文记录</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>游戏版本</td>
-<td>Minecraft 1.21.1</td>
-</tr>
-<tr>
-<td>服务器地址</td>
-<td><code>play.aprmc.top</code></td>
-</tr>
-<tr>
-<td>QQ 群号</td>
-<td><code>940463568</code></td>
-</tr>
-<tr>
-<td>启动器示例</td>
-<td>PCL</td>
-</tr>
-</tbody></table>
-<p>以上是原文存档信息，不表示当前配置或可用性。</p>
-<h2 id="当时的加入步骤"><a href="#当时的加入步骤" class="headerlink" title="当时的加入步骤"></a>当时的加入步骤</h2><ol>
-<li>准备游戏启动器；原文以 PCL 为例。</li>
-<li>使用自行准备的游戏版本，或当时群内提供的整合包，并确认与服务器版本一致。</li>
-<li>启动游戏，在“多人游戏”中添加服务器，填写当时公布的服务器地址。</li>
-</ol>
-<p>原文提到过另一篇启动器教程，但当前博客没有对应文章，所以这里不再提供不存在的教程入口。</p>
-<h2 id="加入前需要确认"><a href="#加入前需要确认" class="headerlink" title="加入前需要确认"></a>加入前需要确认</h2><p>请先确认当前的游戏版本、是否需要整合包、服务器地址和加入要求。下载文件前也应核实发布者和来源；不要仅凭这篇旧文安装不明文件。</p>
-<p>当前没有经过重新核实的入服公告。后续确认后的信息会整理在 <a href="/categories/APRmc/">APRmc 分类</a>；可通过 <a href="/atom.xml">RSS</a>订阅博客文章更新。</p>
+    <content><![CDATA[<p>首先，你需要拥有我的世界的第三方启动器，在这里以pcl为例，如果你没有pcl，请看我其他的博客<br>现在你有两种选择：<br>first—————你使用自己的游戏版本<br>second————使用服务器群内提供的游戏版本（包括我整理的整合包，十分推荐） 群号： 940463568<br>接着，确保你的版本是1.21.1的mc版本，然后开始下一步<br>启动游戏，成功后，在多人游戏添加服务器并输入ip———— play.aprmc.top<br>这样，你就成功加入服务器了！<br>暂时就说这么多，实际上与title相关的内容是讲完了的，bye</p>
 ]]></content>
-      <categories>
-        <category>APRmc</category>
-      </categories>
       <tags>
         <tag>服务器</tag>
         <tag>教程</tag>
-        <tag>历史资料</tag>
       </tags>
   </entry>
   <entry>
-    <title>“我的第一篇Hexo博客”</title>
-    <url>/2025/08/27/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87Hexo%E5%8D%9A%E5%AE%A2%E2%80%9D/</url>
-    <content><![CDATA[<p>这是博客在 2025 年 8 月 27 日创建的第一篇发布测试。原文只有标题和标签，没有正文；本次整理补上说明，保留最初的标题和文章地址。</p>
-<span id="more"></span>
-
-<p>这篇记录用于确认文章发布和页面展示，不是一篇完整教程。关于图片显示的另一次测试，可以阅读<a href="/2025/09/15/%E5%85%B3%E4%BA%8E%E5%9B%BE%E7%89%87%E9%A3%8E%E6%A0%BC/">《关于图片风格》</a>。</p>
-<h2 id="本地预览示例"><a href="#本地预览示例" class="headerlink" title="本地预览示例"></a>本地预览示例</h2><p>下面是本次整理新增的操作示例，用来检查代码块、复制按钮和文章目录的展示。</p>
-<p>已经安装项目依赖后，在博客项目目录中运行：</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">npm run server</span><br></pre></td></tr></table></figure>
-
-<p>按终端显示的本地地址打开博客，检查文章是否正常显示。修改 Markdown 后可在浏览器里查看预览；结束预览时，在终端按 <code>Ctrl+C</code>。</p>
-<p>后续正式文章会按主题整理到<a href="/categories/">分类</a>中。你也可以通过 <a href="/atom.xml">RSS 订阅</a>接收更新，或在<a href="/archives/">归档</a>里按时间浏览。</p>
+    <title>关于图片风格</title>
+    <url>/2025/09/15/%E5%85%B3%E4%BA%8E%E5%9B%BE%E7%89%87%E9%A3%8E%E6%A0%BC/</url>
+    <content><![CDATA[<ol>
+<li>不知道</li>
+<li>这样有没有效果</li>
+<li><img src="/images/111/3cc8c37d3fe664c3b112386aa953485b.png" alt="3cc8c37d3fe664c3b112386aa953485b.png"></li>
+</ol>
 ]]></content>
-      <categories>
-        <category>建站记录</category>
-      </categories>
-      <tags>
-        <tag>建站测试</tag>
-        <tag>Hexo</tag>
-      </tags>
   </entry>
 </search>
