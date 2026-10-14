@@ -451,7 +451,7 @@ canvas:not(#ribbon-canvas),
   animation: donate_effcet 0.3s 0.1s ease both;
 }
 .btn-effects,
-#aside-content .card-info #card-info-btn,
+#aside-content .card-info .card-info-button,
 .post-reward .reward-button,
 .container .btn-beautify,
 .hide-inline > .hide-button,
@@ -470,7 +470,7 @@ canvas:not(#ribbon-canvas),
   transform: translateZ(0);
 }
 .btn-effects:hover,
-#aside-content .card-info #card-info-btn:hover,
+#aside-content .card-info .card-info-button:hover,
 .post-reward .reward-button:hover,
 .container .btn-beautify:hover,
 .hide-inline > .hide-button:hover,
@@ -485,7 +485,7 @@ canvas:not(#ribbon-canvas),
   transform: translateY(-1px) scale(1.02);
 }
 .btn-effects:active,
-#aside-content .card-info #card-info-btn:active,
+#aside-content .card-info .card-info-button:active,
 .post-reward .reward-button:active,
 .container .btn-beautify:active,
 .hide-inline > .hide-button:active,
@@ -502,7 +502,7 @@ canvas:not(#ribbon-canvas),
   transform: translateY(0) scale(0.98);
 }
 .btn-effects i,
-#aside-content .card-info #card-info-btn i,
+#aside-content .card-info .card-info-button i,
 .post-reward .reward-button i,
 .container .btn-beautify i,
 .hide-inline > .hide-button i,
@@ -516,7 +516,7 @@ canvas:not(#ribbon-canvas),
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-effects:hover i,
-#aside-content .card-info #card-info-btn:hover i,
+#aside-content .card-info .card-info-button:hover i,
 .post-reward .reward-button:hover i,
 .container .btn-beautify:hover i,
 .hide-inline > .hide-button:hover i,
@@ -528,7 +528,7 @@ canvas:not(#ribbon-canvas),
   animation: buttonIconBounce 0.6s ease-in-out;
 }
 .btn-effects i + span,
-#aside-content .card-info #card-info-btn i + span,
+#aside-content .card-info .card-info-button i + span,
 .post-reward .reward-button i + span,
 .container .btn-beautify i + span,
 .hide-inline > .hide-button i + span,
@@ -542,7 +542,7 @@ canvas:not(#ribbon-canvas),
   transition: margin-left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-effects:hover i + span,
-#aside-content .card-info #card-info-btn:hover i + span,
+#aside-content .card-info .card-info-button:hover i + span,
 .post-reward .reward-button:hover i + span,
 .container .btn-beautify:hover i + span,
 .hide-inline > .hide-button:hover i + span,
@@ -550,7 +550,7 @@ canvas:not(#ribbon-canvas),
   margin-left: 8px;
 }
 .btn-effects::before,
-#aside-content .card-info #card-info-btn::before,
+#aside-content .card-info .card-info-button::before,
 .post-reward .reward-button::before,
 .container .btn-beautify::before,
 .hide-inline > .hide-button::before,
@@ -574,7 +574,7 @@ canvas:not(#ribbon-canvas),
   transition: left 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-effects:hover::before,
-#aside-content .card-info #card-info-btn:hover::before,
+#aside-content .card-info .card-info-button:hover::before,
 .post-reward .reward-button:hover::before,
 .container .btn-beautify:hover::before,
 .hide-inline > .hide-button:hover::before,
@@ -582,7 +582,7 @@ canvas:not(#ribbon-canvas),
   left: 100%;
 }
 .btn-effects > *,
-#aside-content .card-info #card-info-btn > *,
+#aside-content .card-info .card-info-button > *,
 .post-reward .reward-button > *,
 .container .btn-beautify > *,
 .hide-inline > .hide-button > *,
@@ -3168,19 +3168,24 @@ figure.highlight pre .javascript .function {
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);
 }
-#aside-content .card-info #card-info-btn {
+#aside-content .card-info .card-info-button {
   display: block;
   margin-top: 14px;
-  background-color: var(--btn-bg);
+  width: 100%;
+  background-color: var(--author-button-bg, var(--btn-bg));
   color: var(--btn-color);
+  font: inherit;
   text-align: center;
   line-height: 2.4;
   border-radius: 7px;
 }
-#aside-content .card-info #card-info-btn:hover {
-  background-color: var(--btn-hover-color);
+#aside-content .card-info .card-info-button:hover {
+  background-color: var(--author-button-hover, var(--btn-hover-color));
 }
-#aside-content .card-info #card-info-btn span {
+#aside-content .card-info .card-info-button:disabled {
+  cursor: default;
+}
+#aside-content .card-info .card-info-button span {
   padding-left: 10px;
 }
 #aside-content .item-headline {
