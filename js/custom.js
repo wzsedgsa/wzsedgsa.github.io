@@ -83,7 +83,8 @@
         const query = new AV.Query((settings.option && settings.option.clazzName) || 'Comment');
         query.equalTo('url', decodeURI(window.location.pathname));
         query.limit(1);
-        await withTimeout(query.find(), 12000);
+        const count = await withTimeout(query.count(), 12000);
+        document.querySelectorAll('.valine-comment-count').forEach(counter => { counter.textContent = String(count); counter.removeAttribute('title'); });
         const Valine = await loadScript(settings.script, 'Valine');
         if (!element.firstElementChild) {
           new Valine({
@@ -102,6 +103,7 @@
         status.dataset.state = 'ready';
         message.textContent = '已连接评论服务。提交结果以评论区提示为准。';
       } catch (_) {
+        document.querySelectorAll('.valine-comment-count').forEach(counter => { counter.textContent = '—'; counter.title = '评论服务暂不可用'; });
         status.dataset.state = 'error';
         message.textContent = '评论服务正在检修，暂时无法连接。你可以重新连接，或通过关于页联系作者。正文与 RSS 阅读不受影响。';
         retry.hidden = false;
@@ -221,41 +223,6 @@
     // The original menu remains fully usable when this enhancement is unavailable.
   }
 
-  function copyArticleLink() {
-    const article = document.getElementById('post');
-    if (!article) return;
-    const button = document.createElement('button');
-    button.type = 'button';
-    button.className = 'blog-copy-link';
-    button.textContent = '复制文章链接';
-    button.setAttribute('aria-live', 'polite');
-    button.addEventListener('click', async () => {
-      // Share the directory route used by existing article links and comments.
-      // Hexo's SEO canonical may include index.html, which is a different Valine key.
-      const url = (document.querySelector('link[rel="canonical"]')?.href || window.location.href.split('#')[0])
-        .replace(/\/index\.html(?=$|[?#])/, '/');
-      try {
-        if (navigator.clipboard && window.isSecureContext) await navigator.clipboard.writeText(url);
-        else {
-          const field = document.createElement('textarea');
-          field.value = url;
-          field.setAttribute('readonly', '');
-          field.style.cssText = 'position:fixed;left:-9999px;';
-          document.body.appendChild(field);
-          field.select();
-          const copied = document.execCommand('copy');
-          field.remove();
-          button.focus();
-          if (!copied) throw new Error('clipboard-unavailable');
-        }
-        button.textContent = '链接已复制';
-      } catch (_) { button.textContent = '暂时无法复制，请复制地址栏链接'; }
-      window.setTimeout(() => { button.textContent = '复制文章链接'; }, 3500);
-    });
-    const anchor = article.querySelector('.tag_share') || article.querySelector('.post-copyright');
-    if (anchor) anchor.before(button);
-  }
-
   function deferredAnalytics() {
     const id = document.querySelector('meta[name="blog-baidu-analytics"]')?.content;
     if (!/^[a-f0-9]{32}$/i.test(id || '') || navigator.doNotTrack === '1') return;
@@ -277,9 +244,14 @@
 
   function init() {
     accessibleControls();
-    copyArticleLink();
     lazyComments();
     deferredAnalytics();
+    // Keep the original counter locations, and avoid endless spinners on service failure.
+    window.setTimeout(() => {
+      document.querySelectorAll('[id^="busuanzi_value_"]').forEach(counter => {
+        if (counter.querySelector('.fa-spinner')) { counter.textContent = '—'; counter.title = '统计暂未加载'; }
+      });
+    }, 12000);
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init, { once: true });
   else init();

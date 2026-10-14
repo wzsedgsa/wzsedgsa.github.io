@@ -1,28 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>关于图片风格</title>
-    <url>/2025/09/15/%E5%85%B3%E4%BA%8E%E5%9B%BE%E7%89%87%E9%A3%8E%E6%A0%BC/</url>
-    <content><![CDATA[<p>这是一篇创建于 2025 年 9 月 15 日的图片显示测试，保留原来的文章地址。它用来查看图片在正文中的大小、间距和预览效果，并不是一篇图片风格教程。</p>
-<span id="more"></span>
-
-<h2 id="图片示例"><a href="#图片示例" class="headerlink" title="图片示例"></a>图片示例</h2><figure>
-  <img src="/images/optimized/3cc8c37d3fe664c3b112386aa953485b.webp" width="1440" height="1440" alt="建站时用于检查显示效果的方形图片" loading="lazy" decoding="async">
-  <figcaption>正文展示图。<a href="/images/111/3cc8c37d3fe664c3b112386aa953485b.png">查看原图（1620 × 1620）</a></figcaption>
-</figure>
-
-<p>更多现有图片整理在<a href="/photos/">相册</a>里。可以切换明暗模式，或在手机上查看这张图片的展示效果。</p>
-<p>这篇文章与<a href="/2025/08/27/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87Hexo%E5%8D%9A%E5%AE%A2%E2%80%9D/">最初的发布测试</a>同属“建站记录”。</p>
-]]></content>
-      <categories>
-        <category>建站记录</category>
-      </categories>
-      <tags>
-        <tag>图片</tag>
-        <tag>建站测试</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>“我的第一篇Hexo博客”</title>
     <url>/2025/08/27/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87Hexo%E5%8D%9A%E5%AE%A2%E2%80%9D/</url>
     <content><![CDATA[<p>这是博客在 2025 年 8 月 27 日创建的第一篇发布测试。原文只有标题和标签，没有正文；本次整理补上说明，保留最初的标题和文章地址。</p>
@@ -40,8 +18,30 @@
         <category>建站记录</category>
       </categories>
       <tags>
-        <tag>建站测试</tag>
         <tag>Hexo</tag>
+        <tag>建站测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于图片风格</title>
+    <url>/2025/09/15/%E5%85%B3%E4%BA%8E%E5%9B%BE%E7%89%87%E9%A3%8E%E6%A0%BC/</url>
+    <content><![CDATA[<p>这是一篇创建于 2025 年 9 月 15 日的图片显示测试，保留原来的文章地址。它用来查看图片在正文中的大小、间距和预览效果，并不是一篇图片风格教程。</p>
+<span id="more"></span>
+
+<h2 id="图片示例"><a href="#图片示例" class="headerlink" title="图片示例"></a>图片示例</h2><figure>
+  <img src="/images/optimized/3cc8c37d3fe664c3b112386aa953485b.webp" width="1440" height="1440" alt="建站时用于检查显示效果的方形图片" loading="lazy" decoding="async">
+  <figcaption>正文展示图。<a href="/images/111/3cc8c37d3fe664c3b112386aa953485b.png">查看原图（1620 × 1620）</a></figcaption>
+</figure>
+
+<p>更多现有图片整理在<a href="/photos/">相册</a>里。可以切换明暗模式，或在手机上查看这张图片的展示效果。</p>
+<p>这篇文章与<a href="/2025/08/27/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87Hexo%E5%8D%9A%E5%AE%A2%E2%80%9D/">最初的发布测试</a>同属“建站记录”。</p>
+]]></content>
+      <categories>
+        <category>建站记录</category>
+      </categories>
+      <tags>
+        <tag>建站测试</tag>
+        <tag>图片</tag>
       </tags>
   </entry>
   <entry>
