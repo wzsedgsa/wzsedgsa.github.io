@@ -23,6 +23,28 @@
       </tags>
   </entry>
   <entry>
+    <title>“我的第一篇Hexo博客”</title>
+    <url>/2025/08/27/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87Hexo%E5%8D%9A%E5%AE%A2%E2%80%9D/</url>
+    <content><![CDATA[<p>这是博客在 2025 年 8 月 27 日创建的第一篇发布测试。原文只有标题和标签，没有正文；本次整理补上说明，保留最初的标题和文章地址。</p>
+<span id="more"></span>
+
+<p>这篇记录用于确认文章发布和页面展示，不是一篇完整教程。关于图片显示的另一次测试，可以阅读<a href="/2025/09/15/%E5%85%B3%E4%BA%8E%E5%9B%BE%E7%89%87%E9%A3%8E%E6%A0%BC/">《关于图片风格》</a>。</p>
+<h2 id="本地预览示例"><a href="#本地预览示例" class="headerlink" title="本地预览示例"></a>本地预览示例</h2><p>下面是本次整理新增的操作示例，用来检查代码块、复制按钮和文章目录的展示。</p>
+<p>已经安装项目依赖后，在博客项目目录中运行：</p>
+<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">npm run server</span><br></pre></td></tr></table></figure>
+
+<p>按终端显示的本地地址打开博客，检查文章是否正常显示。修改 Markdown 后可在浏览器里查看预览；结束预览时，在终端按 <code>Ctrl+C</code>。</p>
+<p>后续正式文章会按主题整理到<a href="/categories/">分类</a>中。你也可以通过 <a href="/atom.xml">RSS 订阅</a>接收更新，或在<a href="/archives/">归档</a>里按时间浏览。</p>
+]]></content>
+      <categories>
+        <category>建站记录</category>
+      </categories>
+      <tags>
+        <tag>建站测试</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>怎么加入本博客代表的APRmc服务器？</title>
     <url>/2025/08/29/%E6%80%8E%E4%B9%88%E5%8A%A0%E5%85%A5%E6%9C%AC%E5%8D%9A%E5%AE%A2%E4%BB%A3%E8%A1%A8%E7%9A%84APRmc%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
     <content><![CDATA[<blockquote>
@@ -72,28 +94,6 @@
         <tag>服务器</tag>
         <tag>教程</tag>
         <tag>历史资料</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>“我的第一篇Hexo博客”</title>
-    <url>/2025/08/27/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87Hexo%E5%8D%9A%E5%AE%A2%E2%80%9D/</url>
-    <content><![CDATA[<p>这是博客在 2025 年 8 月 27 日创建的第一篇发布测试。原文只有标题和标签，没有正文；本次整理补上说明，保留最初的标题和文章地址。</p>
-<span id="more"></span>
-
-<p>这篇记录用于确认文章发布和页面展示，不是一篇完整教程。关于图片显示的另一次测试，可以阅读<a href="/2025/09/15/%E5%85%B3%E4%BA%8E%E5%9B%BE%E7%89%87%E9%A3%8E%E6%A0%BC/">《关于图片风格》</a>。</p>
-<h2 id="本地预览示例"><a href="#本地预览示例" class="headerlink" title="本地预览示例"></a>本地预览示例</h2><p>下面是本次整理新增的操作示例，用来检查代码块、复制按钮和文章目录的展示。</p>
-<p>已经安装项目依赖后，在博客项目目录中运行：</p>
-<figure class="highlight sh"><table><tr><td class="code"><pre><span class="line">npm run server</span><br></pre></td></tr></table></figure>
-
-<p>按终端显示的本地地址打开博客，检查文章是否正常显示。修改 Markdown 后可在浏览器里查看预览；结束预览时，在终端按 <code>Ctrl+C</code>。</p>
-<p>后续正式文章会按主题整理到<a href="/categories/">分类</a>中。你也可以通过 <a href="/atom.xml">RSS 订阅</a>接收更新，或在<a href="/archives/">归档</a>里按时间浏览。</p>
-]]></content>
-      <categories>
-        <category>建站记录</category>
-      </categories>
-      <tags>
-        <tag>建站测试</tag>
-        <tag>Hexo</tag>
       </tags>
   </entry>
 </search>

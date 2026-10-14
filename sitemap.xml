@@ -20,15 +20,6 @@
   </url>
   
   <url>
-    <loc>https://aprmc.top/2025/08/29/%E6%80%8E%E4%B9%88%E5%8A%A0%E5%85%A5%E6%9C%AC%E5%8D%9A%E5%AE%A2%E4%BB%A3%E8%A1%A8%E7%9A%84APRmc%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-    
-    <lastmod>2026-10-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://aprmc.top/2025/08/27/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87Hexo%E5%8D%9A%E5%AE%A2%E2%80%9D/</loc>
     
     <lastmod>2026-10-14</lastmod>
@@ -38,7 +29,25 @@
   </url>
   
   <url>
+    <loc>https://aprmc.top/2025/08/29/%E6%80%8E%E4%B9%88%E5%8A%A0%E5%85%A5%E6%9C%AC%E5%8D%9A%E5%AE%A2%E4%BB%A3%E8%A1%A8%E7%9A%84APRmc%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+    
+    <lastmod>2026-10-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://aprmc.top/404.html</loc>
+    
+    <lastmod>2026-10-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://aprmc.top/aprmc/index.html</loc>
     
     <lastmod>2026-10-14</lastmod>
     
@@ -65,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://aprmc.top/aprmc/index.html</loc>
+    <loc>https://aprmc.top/photos/index.html</loc>
     
     <lastmod>2026-10-14</lastmod>
     
@@ -84,15 +93,6 @@
   
   <url>
     <loc>https://aprmc.top/tags/index.html</loc>
-    
-    <lastmod>2026-10-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://aprmc.top/photos/index.html</loc>
     
     <lastmod>2026-10-14</lastmod>
     

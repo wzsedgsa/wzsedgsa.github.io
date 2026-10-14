@@ -230,7 +230,10 @@
     button.textContent = '复制文章链接';
     button.setAttribute('aria-live', 'polite');
     button.addEventListener('click', async () => {
-      const url = document.querySelector('link[rel="canonical"]')?.href || window.location.href.split('#')[0];
+      // Share the directory route used by existing article links and comments.
+      // Hexo's SEO canonical may include index.html, which is a different Valine key.
+      const url = (document.querySelector('link[rel="canonical"]')?.href || window.location.href.split('#')[0])
+        .replace(/\/index\.html(?=$|[?#])/, '/');
       try {
         if (navigator.clipboard && window.isSecureContext) await navigator.clipboard.writeText(url);
         else {
