@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>“我的第一篇Hexo博客”</title>
+    <url>/2025/08/27/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87Hexo%E5%8D%9A%E5%AE%A2%E2%80%9D/</url>
+    <content><![CDATA[]]></content>
+      <tags>
+        <tag>这样就是可以的了吗？</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>怎么加入本博客代表的APRmc服务器？</title>
+    <url>/2025/08/29/%E6%80%8E%E4%B9%88%E5%8A%A0%E5%85%A5%E6%9C%AC%E5%8D%9A%E5%AE%A2%E4%BB%A3%E8%A1%A8%E7%9A%84APRmc%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
+    <content><![CDATA[<p>首先，你需要拥有我的世界的第三方启动器，在这里以pcl为例，如果你没有pcl，请看我其他的博客<br>现在你有两种选择：<br>first—————你使用自己的游戏版本<br>second————使用服务器群内提供的游戏版本（包括我整理的整合包，十分推荐） 群号： 940463568<br>接着，确保你的版本是1.21.1的mc版本，然后开始下一步<br>启动游戏，成功后，在多人游戏添加服务器并输入ip———— play.aprmc.top<br>这样，你就成功加入服务器了！<br>暂时就说这么多，实际上与title相关的内容是讲完了的，bye</p>
+]]></content>
+      <tags>
+        <tag>服务器</tag>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于图片风格</title>
+    <url>/2025/09/15/%E5%85%B3%E4%BA%8E%E5%9B%BE%E7%89%87%E9%A3%8E%E6%A0%BC/</url>
+    <content><![CDATA[<ol>
+<li>不知道</li>
+<li>这样有没有效果</li>
+<li><img src="/images/111/3cc8c37d3fe664c3b112386aa953485b.png" alt="3cc8c37d3fe664c3b112386aa953485b.png"></li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
     <title>维护更新｜2026-10-14</title>
     <url>/2026/10/14/maintenance-2026-10-14/</url>
     <content><![CDATA[<p>今天新增了头像下方的联系入口，并开始用每日维护说明记录博客的调整。</p>
@@ -40,37 +68,27 @@
 </ul>
 <p>以上改动已获作者确认，本次按此版本执行正式复刻与发布。</p>
 <h2 id="正式接入与发布"><a href="#正式接入与发布" class="headerlink" title="正式接入与发布"></a>正式接入与发布</h2><p>作者查看本地预览后明确要求正式发布。本次发布将已验证的 Waline 评论、微信提醒与 QQ 官方入口接入正式博客，保留现有主题、美术风格、布局及特效。复刻前备份相关正式文件，保留其他已有改动；仅发布生成的静态网页，数据库、授权资料、草稿及预览目录不进入公开仓库。发布后分别核对 Netlify 主站和 GitHub Pages 备用入口。</p>
+<h2 id="B-站账号更换"><a href="#B-站账号更换" class="headerlink" title="B 站账号更换"></a>B 站账号更换</h2><p>作者卡片的B 站主按钮与侧栏社交图标同时指向新账号 <code>3706943447239294</code>，原账号 <code>3546699815454761</code> 不再使用。顺手去掉了链接尾部的 <code>?spm_id_from=333.1007.0.0</code> 来源追踪参数——对外分享时它没有作用，保留反而像是复制来的地址。</p>
+<h2 id="QQ-入口改为点击复制号码"><a href="#QQ-入口改为点击复制号码" class="headerlink" title="QQ 入口改为点击复制号码"></a>QQ 入口改为点击复制号码</h2><p>QQ 临时会话彻底走不通了，实测确认与配置写法无关：</p>
+<ul>
+<li><code>wpa.qq.com/msgrd</code> 会302 跳转到腾讯中转页，页面上只有「无法唤起？」；</li>
+<li><code>wpa.qq.com/addfriend</code> 直接返回「服务异常 &#x2F; 无效临时会话链接」；</li>
+<li><code>tencent://</code> 自定义协议能被识别，但 Chrome 与 Edge 的安全策略会将其判定为不安全链接并拦截。</li>
+</ul>
+<p>根因是腾讯已把临时会话改为收费推广功能，需要企业资质在 QQ 推广平台申请，个人博客号的免费通道整体下线。目前不存在免费且能直接跳进QQ 聊天窗口的方案，因此把 QQ 按钮改为<strong>点击复制号码 1079483731</strong>，点击后按钮文字短暂变为「已复制」。复制动作优先使用 Clipboard API，并以 <code>document.execCommand(&#39;copy&#39;)</code> 兜底，因为 http 预览环境与微信内置浏览器中前者常常不可用。</p>
+<p>若日后拿到腾讯官方生成的 <code>qm.qq.com</code> 临时会话链接，可替换回真实跳转；该形式是 HTTPS 不会被浏览器拦截，但手机能唤起、电脑端有时仍会失效。</p>
+<h2 id="本次改动文件与状态"><a href="#本次改动文件与状态" class="headerlink" title="本次改动文件与状态"></a>本次改动文件与状态</h2><p>改动共三个文件：<code>_config.butterfly.yml</code>（链接与按钮配置）、<code>card_author.pug</code>（新增 <code>button.copy</code> 分支）、<code>author-contact.js</code>（复制逻辑）。微信按钮的提示与样式<strong>未作任何改动</strong>。改动先在备份工作区完成预览验证，再复刻到正式目录，复刻前已备份被覆盖文件。</p>
 ]]></content>
       <tags>
         <tag>维护更新</tag>
+        <tag>Hexo</tag>
+        <tag>Butterfly</tag>
+        <tag>侧边栏</tag>
+        <tag>联系方式</tag>
+        <tag>B站</tag>
+        <tag>QQ</tag>
+        <tag>浏览器兼容</tag>
+        <tag>排查</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>怎么加入本博客代表的APRmc服务器？</title>
-    <url>/2025/08/29/%E6%80%8E%E4%B9%88%E5%8A%A0%E5%85%A5%E6%9C%AC%E5%8D%9A%E5%AE%A2%E4%BB%A3%E8%A1%A8%E7%9A%84APRmc%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
-    <content><![CDATA[<p>首先，你需要拥有我的世界的第三方启动器，在这里以pcl为例，如果你没有pcl，请看我其他的博客<br>现在你有两种选择：<br>first—————你使用自己的游戏版本<br>second————使用服务器群内提供的游戏版本（包括我整理的整合包，十分推荐） 群号： 940463568<br>接着，确保你的版本是1.21.1的mc版本，然后开始下一步<br>启动游戏，成功后，在多人游戏添加服务器并输入ip———— play.aprmc.top<br>这样，你就成功加入服务器了！<br>暂时就说这么多，实际上与title相关的内容是讲完了的，bye</p>
-]]></content>
-      <tags>
-        <tag>服务器</tag>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>“我的第一篇Hexo博客”</title>
-    <url>/2025/08/27/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87Hexo%E5%8D%9A%E5%AE%A2%E2%80%9D/</url>
-    <content><![CDATA[]]></content>
-      <tags>
-        <tag>这样就是可以的了吗？</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于图片风格</title>
-    <url>/2025/09/15/%E5%85%B3%E4%BA%8E%E5%9B%BE%E7%89%87%E9%A3%8E%E6%A0%BC/</url>
-    <content><![CDATA[<ol>
-<li>不知道</li>
-<li>这样有没有效果</li>
-<li><img src="/images/111/3cc8c37d3fe664c3b112386aa953485b.png" alt="3cc8c37d3fe664c3b112386aa953485b.png"></li>
-</ol>
-]]></content>
   </entry>
 </search>
