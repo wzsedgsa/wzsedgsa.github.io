@@ -1,8 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /_drafts/
-Disallow: /_discarded/
-Disallow: /admin/
-Disallow: /hexo-pro/
-
-Sitemap: https://aprmc.top/sitemap.xml

@@ -1,9 +1,0 @@
-/* Functional additions only. Colors, typography, layout and effects belong to Butterfly. */
-.skip-to-content { position: fixed; left: 8px; top: -100px; z-index: 10000; }
-.skip-to-content:focus { top: 8px; padding: 8px 12px; background: var(--card-bg); color: var(--font-color); }
-.blog-comment-status { margin: 12px 0; }
-.blog-comment-status button { margin-left: 8px; padding: 4px 10px; background: var(--btn-bg); color: var(--btn-color); }
-.blog-comment-status button[hidden], #vcomment[hidden] { display: none !important; }
-.blog-comment-privacy { font-size: .85em; }
-.medium-zoom-overlay { z-index: 1000; }
-.medium-zoom-image--opened { z-index: 1001; }

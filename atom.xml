@@ -33,9 +33,9 @@
     <category term="建站记录" scheme="https://aprmc.top/categories/%E5%BB%BA%E7%AB%99%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="建站测试" scheme="https://aprmc.top/tags/%E5%BB%BA%E7%AB%99%E6%B5%8B%E8%AF%95/"/>
-    
     <category term="图片" scheme="https://aprmc.top/tags/%E5%9B%BE%E7%89%87/"/>
+    
+    <category term="建站测试" scheme="https://aprmc.top/tags/%E5%BB%BA%E7%AB%99%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
@@ -46,7 +46,7 @@
     <published>2025-08-28T16:38:49.000Z</published>
     <updated>2026-10-14T05:00:00.000Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p><strong>历史资料：</strong> 这篇指南最初发布于 2025 年 8 月 29 日。2026 年 10 月整理博客时，仅调整了结构和提示；下列版本、服务器地址和群信息尚未重新核实，不能据此判断服务器目前是否开放。</p></blockquote><p>这篇文章保留早期 APRmc 的入服说明。准备加入前，请先到 <a href="/aprmc/">APRmc 栏目</a>查看是否已有更新，并通过<a href="https://space.bilibili.com/3546699815454761">作者公开主页</a>确认最新消息。</p><span id="more"></span><h2 id="原指南记录的信息"><a href="#原指南记录的信息" class="headerlink" title="原指南记录的信息"></a>原指南记录的信息</h2><table><thead><tr><th>项目</th><th>2025 年原文记录</th></tr></thead><tbody><tr><td>游戏版本</td><td>Minecraft 1.21.1</td></tr><tr><td>服务器地址</td><td><code>play.aprmc.top</code></td></tr><tr><td>QQ 群号</td><td><code>940463568</code></td></tr><tr><td>启动器示例</td><td>PCL</td></tr></tbody></table><p>以上是原文存档信息，不表示当前配置或可用性。</p><h2 id="当时的加入步骤"><a href="#当时的加入步骤" class="headerlink" title="当时的加入步骤"></a>当时的加入步骤</h2><ol><li>准备游戏启动器；原文以 PCL 为例。</li><li>使用自行准备的游戏版本，或当时群内提供的整合包，并确认与服务器版本一致。</li><li>启动游戏，在“多人游戏”中添加服务器，填写当时公布的服务器地址。</li></ol><p>原文提到过另一篇启动器教程，但当前博客没有对应文章，所以这里不再提供不存在的教程入口。</p><h2 id="加入前需要确认"><a href="#加入前需要确认" class="headerlink" title="加入前需要确认"></a>加入前需要确认</h2><p>请先确认当前的游戏版本、是否需要整合包、服务器地址和加入要求。下载文件前也应核实发布者和来源；不要仅凭这篇旧文安装不明文件。</p><p>当前没有经过重新核实的入服公告。后续确认后的信息会整理在 <a href="/aprmc/">APRmc 栏目</a>；可通过 <a href="/atom.xml">RSS</a>订阅博客文章更新。</p>]]></content>
+    <content type="html"><![CDATA[<blockquote><p><strong>历史资料：</strong> 这篇指南最初发布于 2025 年 8 月 29 日。2026 年 10 月整理博客时，仅调整了结构和提示；下列版本、服务器地址和群信息尚未重新核实，不能据此判断服务器目前是否开放。</p></blockquote><p>这篇文章保留早期 APRmc 的入服说明。准备加入前，请先到 <a href="/categories/APRmc/">APRmc 分类</a>查看是否已有更新，并通过<a href="https://space.bilibili.com/3546699815454761">作者公开主页</a>确认最新消息。</p><span id="more"></span><h2 id="原指南记录的信息"><a href="#原指南记录的信息" class="headerlink" title="原指南记录的信息"></a>原指南记录的信息</h2><table><thead><tr><th>项目</th><th>2025 年原文记录</th></tr></thead><tbody><tr><td>游戏版本</td><td>Minecraft 1.21.1</td></tr><tr><td>服务器地址</td><td><code>play.aprmc.top</code></td></tr><tr><td>QQ 群号</td><td><code>940463568</code></td></tr><tr><td>启动器示例</td><td>PCL</td></tr></tbody></table><p>以上是原文存档信息，不表示当前配置或可用性。</p><h2 id="当时的加入步骤"><a href="#当时的加入步骤" class="headerlink" title="当时的加入步骤"></a>当时的加入步骤</h2><ol><li>准备游戏启动器；原文以 PCL 为例。</li><li>使用自行准备的游戏版本，或当时群内提供的整合包，并确认与服务器版本一致。</li><li>启动游戏，在“多人游戏”中添加服务器，填写当时公布的服务器地址。</li></ol><p>原文提到过另一篇启动器教程，但当前博客没有对应文章，所以这里不再提供不存在的教程入口。</p><h2 id="加入前需要确认"><a href="#加入前需要确认" class="headerlink" title="加入前需要确认"></a>加入前需要确认</h2><p>请先确认当前的游戏版本、是否需要整合包、服务器地址和加入要求。下载文件前也应核实发布者和来源；不要仅凭这篇旧文安装不明文件。</p><p>当前没有经过重新核实的入服公告。后续确认后的信息会整理在 <a href="/categories/APRmc/">APRmc 分类</a>；可通过 <a href="/atom.xml">RSS</a>订阅博客文章更新。</p>]]></content>
     
     
     <summary type="html">2025 年 8 月的 APRmc 入服说明存档；游戏版本、地址和群信息尚未重新核实，请先确认最新公告。</summary>
@@ -81,9 +81,9 @@
     <category term="建站记录" scheme="https://aprmc.top/categories/%E5%BB%BA%E7%AB%99%E8%AE%B0%E5%BD%95/"/>
     
     
-    <category term="Hexo" scheme="https://aprmc.top/tags/Hexo/"/>
-    
     <category term="建站测试" scheme="https://aprmc.top/tags/%E5%BB%BA%E7%AB%99%E6%B5%8B%E8%AF%95/"/>
+    
+    <category term="Hexo" scheme="https://aprmc.top/tags/Hexo/"/>
     
   </entry>
   
